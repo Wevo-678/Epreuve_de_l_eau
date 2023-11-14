@@ -37,7 +37,7 @@ int secure(char *s)
 	i = 0;
 	while (s[i])
 	{
-		if (('0' >= s[i] && s[i] >= '9'))
+		if (('0' > s[i] && s[i] > '9'))
 			return (0); 
 		i++;
 	}
